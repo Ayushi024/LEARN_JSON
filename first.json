@@ -1,0 +1,14 @@
+{
+    "name":"Harry",
+    "score":1.27 ,
+    "isAdmin":false,
+    "admin":null,
+    "shopItems":["food","clothes","sunfloweroil"],
+    "myobj":{
+       "name":"nested",
+       "marks":45,
+       "shopItem2":["food","clothes",{"a":true}]
+    }
+   
+   }
+    

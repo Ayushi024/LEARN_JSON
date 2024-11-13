@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Accessing NEsted json object values using for/in loop
+    </p>
+    <div id="myid">
+
+    </div>
+    <script>
+        var obj,i,x="";
+        obj={
+            "name":"Ayu",
+            "mobile":886581,
+            "city":"DDN",
+            "courses":{
+                "course1":"Python",
+                "course2":"Java",
+                "course3":"C++",
+                "course4":"C#",
+                "course5":"C"
+            }
+        }
+
+        for(i in obj.courses){
+            x=x+obj.courses[i]+"<br/>";
+        }
+        document.getElementById("myid").innerHTML=x;
+    </script>
+</body>
+</html>

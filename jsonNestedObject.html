@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Accessing json object keys and values using dot and bracket Notation
+    </h2>
+    <div id="myid">
+
+    </div>
+    <script>
+        var obj={
+            "name":"Ayu",
+            "mobile":886581,
+            "city":"DDN",
+            "courses":{
+                "course1":"java",
+                "course2":"python",
+                "course3":"c++"
+
+            }
+        }
+//using dot+
+      //  c1=obj.courses.course1;
+        //c2=obj.courses.course2;
+        //c3=obj.courses.course3;
+        //document.getElementById("myid").innerHTML=c1+" "+c2+" "+c3
+//using breackets
+        c1=obj["courses"]["course1"];
+        c2=obj["courses"]["course2"];
+        c3=obj["courses"]["course3"];
+        document.getElementById("myid").innerHTML=c1+" "+c2+" "+c3
+    </script>
+</body>
+</html>
