@@ -1,0 +1,70 @@
+LEARN_JSON
+******************************************SOAP and XML Background******************************************
+Earlier, applications used XML with SOAP (Simple Object Access Protocol) for communication across platforms and languages. 
+XML, being a markup language, is effective for complex data structures but can be more cumbersome.
+for storing and exchanging data,
+Json is lightweight and uses key value pair and is easier to read and write and is ideal for web and mobile data exchange.
+It can be used with any programming lang.
+It supports objects and array 
+
+
+******************************************Working with JSON in JavaScript******************************************
+JSON.parse()
+JSON.parse() is used in JavaScript to convert a JSON-formatted string into a JavaScript object.
+Example Use: When an API response returns JSON as a string, you use JSON.parse() to access the data as a JavaScript object.
+
+
+
+
+******************************************XML vs. JSON******************************************
+JSON
+Stands for JavaScript Object Notation.
+Simple to read, write, and learn.
+Data-oriented with key-value pairs.
+Doesn't provide built-in display features.
+Supports arrays.
+Generally, less secure than XML.
+More human-readable due to a minimal structure.
+Supports only text and number data types.
+
+XML
+Stands for eXtensible Markup Language.
+More complex than JSON.
+Primarily document-oriented.
+Can handle data display (e.g., images, charts) because it's a markup language.
+Does not support arrays directly.
+Offers better security.
+Can store many data types (text, images, graphs).
+Similarities between JSON and XML
+Both are open standards.
+Both support Unicode, so they work well for internationalization.
+Both are self-describing.
+Both are language-independent and work across different platforms.
+
+
+
+******************************************JSON Data Types**********************************
+Valid data types in JSON:
+String
+Number
+Object (JSON object)
+Array
+Boolean
+Null
+Data types that JSON cannot handle:
+
+Functions
+Dates
+Undefined
+
+
+******************************************Accessing Data in JSON Objects******************************************
+Dot notation (obj.key)
+Square brackets (obj["key"])
+
+
+
+******************************************JSON.stringify()******************************************
+
+Purpose: Converts a JavaScript object to a JSON-formatted string.
+Syntax: JSON.stringify(object, replacer, space)
